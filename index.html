@@ -445,9 +445,7 @@ body.single article figure {
 		width: auto;
 		max-height: 65px;
 	}
-	.hiver-col{
-		padding-top: 20px;
-	}
+	
 }
 
 ol.baa-list {
@@ -757,10 +755,14 @@ ol.baa-list ol[type="i"] > li::before {
         width: 100% !important;
     }
 		.hiver-col{
-			padding-left:0px;
-			padding-right:0px;
+			padding-left:0px !important;
+			padding-right:0px !important;
 		}
 }
+	@media (max-width: 768px){
+		.hiver-col{
+		padding-top: 20px !important;
+	}
 	</style>
               </main>
           </div>
